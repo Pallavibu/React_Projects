@@ -1,17 +1,4 @@
 import {useState} from 'react'
-
-function Names(){
-  const [subnames , setSubNames] = useState(["Pallavi", "BPallavi", "BUPallavi"])
-  return(
-    <div>
-      <ul>
-        {subnames.map((h) => (
-          <li>{h}</li>
-        ))}
-      </ul>
-    </div>
-  )
-}
 function Counteri(){
   let [counti, setCounti] = useState(0);
     function increament(){
@@ -32,7 +19,7 @@ function Counterd(){
       <div>
         <button onClick={decreament}>
           decreament : {countd}</button>
-        <Names/>
+
       </div>
     )
 };
