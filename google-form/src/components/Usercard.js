@@ -5,10 +5,10 @@ import Userdetails from "./Userdetails"
 const Usercard = () =>{
     return(
         <>
-        <Buttons />
         <Userdetails/>
+        <Buttons />
          </>
 )
 }
 
-export default Usercard
+export default Usercard;
